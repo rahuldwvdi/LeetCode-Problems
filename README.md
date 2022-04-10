@@ -1,2 +1,2 @@
 
-Problems from LeetCode Coding Platform
+Solved Problems from LeetCode.
