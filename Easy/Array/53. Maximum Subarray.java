@@ -5,7 +5,7 @@ class Solution {
         for(int i:nums){
             currsum += i;
             maxsum = Math.max(currsum, maxsum);
-            if(currsum<0){  //if currsum goes below zero then it cannot contribute to maxsum
+            if(currsum<0){  //if currsum goes below zero then it cannot contribute to maxsum var
                 currsum = 0;
             }
         }
