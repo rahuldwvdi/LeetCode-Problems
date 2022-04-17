@@ -21,7 +21,7 @@ class Solution {
                 return bsearch(nums, target, mid+1, end);
             }
         }
-        if(target>=nums[mid] && target<=nums[end]){ //if element lies in second half
+        if(target>=nums[mid] && target<=nums[end]){ //if element lies in second half of array
             return bsearch(nums, target, start+1, end);
         }
         return bsearch(nums, target, start, end-1);
